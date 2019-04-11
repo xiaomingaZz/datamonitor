@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.x-tree-node-el td {
+  border-right: 1px solid #EEEEEE;
+}
+
+.x-treegrid-root-node table {
+  empty-cells: show;
+  border-right: 1px solid #EEEEEE;
+  border-collapse: collapse;
+}
+
+/*与表头对齐*/
+.x-treegrid-root-node td {
+  padding-right: 0px;
+}

@@ -1,0 +1,22 @@
+tr {
+	line-height: 20px;
+	bgcolor: "#FFFFFF";
+	word-break:break-all
+}
+table{
+  table-layout:fixed;
+}
+td {
+	font-size: 12px;
+	white-space:nowrap
+}
+.bt {
+	font-family: "宋体";
+	font-size: 15px;
+	font-weight: bold;
+	color: #014459;
+	text-decoration: none;
+	background-image: url(../images/bt_bj.gif);
+	background-repeat: repeat-x;
+	line-height: 26px;
+}

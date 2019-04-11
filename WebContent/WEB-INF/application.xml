@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<!-- 
+		<applicationID>的标签值SPXT为应用代码，如果整合多个应用，则新增加多行，applicationID的值为整合应用的应用代码
+	 -->
+	 
+		<applicationID>GLCX</applicationID>
+
+</application>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+
+    <bean id="propertyConfigurer"          
+        class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">           
+    	<property name="location" value="/WEB-INF/config/jdbc.properties"/>           
+    </bean>
+    
+	<bean id="HbsjjzdataSource"
+		class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName"
+			value="${xdb.driverClassName}">
+		</property>
+		<property name="url" value="${xdb.url}"></property>
+		<property name="username" value="${xdb.username}"></property>
+		<property name="password" value="${xdb.password}"></property>
+		<property name="maxActive" value="${xdb.maxActive}"></property>
+		<property name="maxIdle" value="${xdb.maxIdle}"></property>
+		<property name="maxWait" value="2000"></property>
+		<property name="defaultAutoCommit" value="false"></property>
+		<property name="removeAbandoned" value="true" />
+		<property name="removeAbandonedTimeout" value="200" />
+		<property name="logSql" value="true"/> <!--开启日志记录-->
+	</bean>
+	
+	
+	<bean id="HbdcdataSource"
+		class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName"
+			value="${hbdc.driverClassName}">
+		</property>
+		<property name="url" value="${hbdc.url}"></property>
+		<property name="username" value="${hbdc.username}"></property>
+		<property name="password" value="${hbdc.password}"></property>
+		<property name="maxActive" value="${hbdc.maxActive}"></property>
+		<property name="maxIdle" value="${hbdc.maxIdle}"></property>
+		<property name="maxWait" value="2000"></property>
+		<property name="defaultAutoCommit" value="false"></property>
+		<property name="removeAbandoned" value="true" />
+		<property name="removeAbandonedTimeout" value="200" />
+		<property name="logSql" value="true"/> <!--开启日志记录-->
+	</bean>
+
+	<!--JDBC模板类,用于注入到JdbcSupport -->
+	<bean id="HbsjjzJdbcTemplateExt"
+		class="tdh.framework.dao.springjdbc.JdbcTemplateExt">
+		<property name="dataSource">
+			<ref bean="HbsjjzdataSource" />
+		</property>
+	</bean>
+	
+	
+	<!--JDBC模板类,用于注入到JdbcSupport -->
+	<bean id="HbsjjzJdbcTemplate"
+		class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource">
+			<ref bean="HbsjjzdataSource" />
+		</property>
+	</bean>
+	
+
+	<!-- JDBC通用分页工具 -->
+	<bean id="HbsjjzPaginateJdbc"
+		class="tdh.frame.web.dao.jdbc.PaginateJdbc">
+		<property name="jdbcTemplate">
+			<ref bean="HbsjjzJdbcTemplateExt" />
+		</property>
+	</bean>
+
+	<!-- 分页工具类 -->
+	<bean id="HbsjjzPaginateSpringJdbc"
+		class="tdh.framework.dao.pb.PaginateSpringJdbc">
+		<property name="jdbcTemplateExt">
+			<ref bean="HbsjjzJdbcTemplateExt" />
+		</property>
+	</bean>
+	
+	<!-- 导出日志分析 -->
+	<bean id="GenExpLogService" class="tdh.explog.GenExpLogService"/>
+	
+	
+	<bean id="HbdcJdbcTemplateExt"
+		class="tdh.framework.dao.springjdbc.JdbcTemplateExt">
+		<property name="dataSource">
+			<ref bean="HbdcdataSource" />
+		</property>
+	</bean>
+
+
+	<bean id="HbdcPaginateJdbc"
+		class="tdh.frame.web.dao.jdbc.PaginateJdbc">
+		<property name="jdbcTemplate">
+			<ref bean="HbdcJdbcTemplateExt" />
+		</property>
+	</bean>
+</beans>

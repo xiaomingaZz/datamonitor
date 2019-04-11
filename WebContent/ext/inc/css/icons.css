@@ -1,0 +1,359 @@
+@CHARSET "UTF-8";
+
+.icon_drop_yes {
+	background: url(../icons/drop-yes.gif) no-repeat;
+}
+
+.icon_cancel {
+	background: url(../icons/cancel.png) no-repeat;
+}
+
+.icon_preferences {
+	background: url(../icons/preferences.png) no-repeat;
+}
+
+.btn_query {
+	background: url(../icons/search.png) no-repeat;
+}
+
+.btn_add {
+	background: url(../icons/add.gif) no-repeat;
+}
+
+.btn_refresh {
+	background: url(../icons/refresh.gif) no-repeat;
+}
+
+.btn_save {
+	background: url(../icons/save.gif) no-repeat;
+}
+
+.btn_delete {
+	background: url(../icons/delete.gif) no-repeat;
+}
+
+.btn_remove {
+	background: url(../icons/cross.gif) no-repeat;
+}
+
+.btn_plugin {
+	background: url(../icons/plugin.gif) no-repeat;
+}
+
+.btn_edit {
+	background: url(../icons/edit.gif) no-repeat;
+}
+
+.btn_image {
+	background: url(../icons/image_add.png) no-repeat;
+}
+
+.btn_adduser {
+	background: url(../icons/user_add.gif) no-repeat;
+}
+
+.btn_deleteuser {
+	background: url(../icons/user_delete.png) no-repeat;
+}
+
+.btn_inuser {
+	background: url(../icons/user_in.gif) no-repeat;
+}
+
+.btn_bar {
+	background: url(../icons/ico_widget.gif) no-repeat;
+}
+
+.btn_line {
+	background: url(../icons/xian.gif) no-repeat;
+}
+
+.btn_pie {
+	background: url(../icons/cake.gif) no-repeat;
+}
+
+.btn_home {
+	background: url(../icons/home.gif) no-repeat;
+}
+
+.btn_print {
+	background: url(../icons/printer.png) no-repeat;
+}
+
+.btn_selectall {
+	background: url(../icons/icon-all.gif) no-repeat;
+}
+
+.icon_system {
+	background: url(../icons/cog_edit.png) no-repeat;
+}
+
+.icon_category {
+	background: url(../icons/icon-by-category.gif) no-repeat;
+}
+
+.icon_pro {
+	background: url(../icons/setprop.gif) no-repeat;
+}
+
+.icon_dx {
+	background: url(../icons/dx.gif) no-repeat;
+}
+
+.icon_org {
+	background: url(../icons/orgmgr.gif) no-repeat;
+}
+
+.icon_codemgr {
+	background: url(../icons/codemgr.gif) no-repeat;
+}
+
+.icon_grp2 {
+	background: url(../icons/grp2.gif) no-repeat;
+}
+
+.icon_olap {
+	background: url(../icons/olap.gif) no-repeat;
+}
+
+.icon_app_list {
+	background: url(../icons/application_view_list.png) no-repeat;
+}
+
+.icon_connect {
+	background: url(../icons/connect.gif) no-repeat;
+}
+
+.icon_tsk {
+	background: url(../icons/tsk.gif) no-repeat;
+}
+
+.icon_event {
+	background: url(../icons/events.png) no-repeat;
+}
+
+.icon_xtgl {
+	background: url(../icons/xtgl.png) no-repeat;
+}
+
+.icon_report {
+	background: url(../icons/report.png) no-repeat;
+}
+
+.icon_rule {
+	background: url(../icons/ruler_crop.png) no-repeat;
+}
+
+.icon_monitor {
+	background: url(../icons/monitor.png) no-repeat;
+}
+
+.icon_clock {
+	background: url(../icons/clock.png) no-repeat;
+}
+
+.icon_fx {
+	background: url(../icons/ico_widget.gif) no-repeat;
+}
+
+.icon_barchart {
+	background: url(../icons/barchart.png) no-repeat;
+}
+
+.icon_bricks {
+	background: url(../icons/bricks.png) no-repeat;
+}
+
+.icon_filter {
+	background: url(../icons/filter.png) no-repeat;
+}
+
+.icon_find {
+	background: url(../icons/find.png) no-repeat;
+}
+
+.icon_home {
+	background: url(../images/home.gif) no-repeat;
+}
+
+.icon_return {
+	background: url(../icons/return.gif) no-repeat;
+}
+
+.icon_jd {
+	background: url(../icons/jd.gif) no-repeat;
+}
+
+.icon_page_refresh {
+	background: url(../icons/page_refresh.png) no-repeat;
+}
+
+.icon_hz {
+	background: url(../icons/hz.gif) no-repeat;
+}
+
+.icon_first {
+	background: url(../icons/resultset_first.png) no-repeat;
+}
+
+.icon_last {
+	background: url(../icons/resultset_last.png) no-repeat;
+}
+
+.icon_next {
+	background: url(../icons/resultset_next.png) no-repeat;
+}
+
+.icon_previous {
+	background: url(../icons/resultset_previous.png) no-repeat;
+}
+
+.icon_script {
+	background: url(../icons/script_code.png) no-repeat;
+}
+
+.icon_excel {
+	background: url(../icons/doc_excel_table.png) no-repeat;
+}
+
+.icon_key {
+	background: url(../icons/key.png) no-repeat;
+}
+
+.icon_lock {
+	background: url(../icons/lock.png) no-repeat;
+}
+
+.icon_unlock {
+	background: url(../icons/lock_unlock.png) no-repeat;
+}
+
+.icon_jia {
+	background: url(../icons/jia.gif) no-repeat;
+}
+
+.icon_jian {
+	background: url(../icons/jiang.gif) no-repeat;
+}
+
+.icon_cheng {
+	background: url(../icons/cheng.gif) no-repeat;
+}
+
+.icon_srvedit {
+	background: url(../icons/svrreg.gif) no-repeat;
+}
+
+.icon_chu {
+	background: url(../icons/chu.gif) no-repeat;
+}
+
+.icon_zkh {
+	background: url(../icons/zkh.gif) no-repeat;
+}
+
+.icon_rkh {
+	background: url(../icons/rkh.gif) no-repeat;
+}
+
+.icon_copy {
+	background: url(../icons/doc_convert.png) no-repeat;
+}
+
+.icon_tablechart {
+	background: url(../icons/table_chart.png) no-repeat;
+}
+
+.icon_play {
+	background: url(../icons/clock_play.png) no-repeat;
+}
+
+.icon_balance {
+	background: url(../icons/balance.png) no-repeat;
+}
+
+.upload-icon {
+	background: url('../icons/image_add.png') no-repeat 0 0 !important;
+}
+
+.icon_marker {
+	background: url('../icons/marker.png') no-repeat 0 0 !important;
+}
+
+.icon_ticket {
+	background: url('../icons/ticket.png') no-repeat 0 0 !important;
+}
+
+.icon_signature {
+	background: url('../icons/signature.png') no-repeat 0 0 !important;
+}
+
+.icon_database {
+	background: url('../icons/database_refresh.png') no-repeat 0 0
+		!important;
+}
+
+.icon_process {
+	background: url('../icons/ui_text_field_password.png') no-repeat 0 0
+		!important;
+}
+
+.icon_redline {
+	background: url('../icons/red_line.png') no-repeat 0 0 !important;
+}
+
+.icon_time {
+	background: url('../icons/time.png') no-repeat 0 0 !important;
+}
+
+.icon_account {
+	background: url('../icons/account_balances.png') no-repeat 0 0
+		!important;
+}
+
+.icon_home2 {
+	background: url('../icons/Home.png') no-repeat 0 0 !important;
+}
+
+.icon_group {
+	background: url('../icons/group.png') no-repeat 0 0 !important;
+}
+
+.icon_user {
+	background: url('../icons/user.png') no-repeat 0 0 !important;
+}
+
+.icon_grp {
+	background: url('../icons/grp.gif') no-repeat 0 0 !important;
+}
+
+.icon_export {
+	background: url(../icons/export_excel.png) no-repeat;
+}
+
+.icon_table_refresh {
+	background: url(../icons/table_refresh.png) no-repeat;
+}
+
+.icon_word {
+	background: url(../icons/report_word.png) no-repeat;
+}
+
+.icon_world {
+	background: url(../icons/world_go.png) no-repeat;
+}
+
+.icon_transform {
+	background: url(../icons/transform_perspective.png) no-repeat;
+}
+
+.icon_stopwatch {
+	background: url(../icons/stopwatch_pause.png) no-repeat;
+}
+.icon_startwatch {
+	background: url(../icons/stopwatch_start.png) no-repeat;
+}
+
+.icon_accept {
+	background: url(../icons/accept.png) no-repeat;
+}

@@ -1,0 +1,137 @@
+A {
+	COLOR: #0349a7; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #0349a7; LINE-HEIGHT: 21px; FONT-FAMILY: Arial
+}
+TH {
+	FONT-SIZE: 12px; COLOR: #0349a7; LINE-HEIGHT: 21px; FONT-FAMILY: Arial
+}
+IMG {
+	BEHAVIOR: url(../include/iepngfix.htc)
+}
+.Copyright {
+	COLOR: #9db3cf; LINE-HEIGHT: 19px; PADDING-TOP: 8px
+}
+.font_white A {
+	COLOR: #fff
+}
+.font_white A:hover {
+	COLOR: #9eebff
+}
+.img_k {
+	BORDER-RIGHT: #d3dee9 1px solid; BORDER-TOP: #d3dee9 1px solid; BORDER-LEFT: #d3dee9 1px solid; BORDER-BOTTOM: #d3dee9 1px solid
+}
+.td_k {
+	BORDER-RIGHT: #88a1c1 1px dashed; PADDING-RIGHT: 12px; BORDER-TOP: #88a1c1 1px dashed; PADDING-LEFT: 12px; BACKGROUND: #e2f2f6; PADDING-BOTTOM: 12px; BORDER-LEFT: #88a1c1 1px dashed; LINE-HEIGHT: 17px; PADDING-TOP: 12px; BORDER-BOTTOM: #88a1c1 1px dashed
+}
+.k_top {
+	BORDER-TOP: #99b6cf 1px solid
+}
+.div_d {
+}
+A.f_white:visited {
+	COLOR: #c8f1ff; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A.f_white:link {
+	COLOR: #c8f1ff; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A.f_white:active {
+	COLOR: #c8f1ff; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A.f_white:hover {
+	COLOR: #9eebff; TEXT-DECORATION: none
+}
+#div_main {
+	MARGIN-LEFT: auto; WIDTH: 964px; MARGIN-RIGHT: auto
+}
+#div_main_bg {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: url(../images/mi_bg.gif) repeat-y; PADDING-BOTTOM: 0px; MARGIN-LEFT: auto; WIDTH: 950px; MARGIN-RIGHT: auto; PADDING-TOP: 0px
+}
+#div_main_bg1 {
+	BACKGROUND: #e2f2f6; MARGIN-LEFT: auto; WIDTH: 953px; MARGIN-RIGHT: auto; HEIGHT: 158px
+}
+#menu {
+	
+}
+#menu LI {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px; LIST-STYLE-TYPE: none; HEIGHT: 32px; TEXT-ALIGN: center
+}
+#menu LI A {
+	DISPLAY: block; FLOAT: left; WIDTH: 80px; COLOR: #fff; PADDING-TOP: 5px; HEIGHT: 27px; TEXT-DECORATION: none
+}
+#menu LI A:hover {
+	BACKGROUND: url(../images/m_on.jpg) no-repeat center top; WIDTH: 80px; COLOR: #9eebff; TEXT-DECORATION: none
+}
+#right {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 7px; BACKGROUND: url(../images/z_bg.jpg) #eef5f9 repeat-x; PADDING-BOTTOM: 0px; BORDER-LEFT: #a8ccdd 1px solid; PADDING-TOP: 4px
+}
+#left {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; PADDING-TOP: 7px
+}
+.fent_17px {
+	COLOR: #3491e0; LINE-HEIGHT: 17px
+}
+.time {
+	PADDING-LEFT: 28px; BACKGROUND: url(../images/timebg.gif); COLOR: #7d3200; HEIGHT: 31px
+}
+.ggaobg {
+	PADDING-RIGHT: 8px; BORDER-TOP: #77a4bc 1px solid; PADDING-LEFT: 10px; BACKGROUND: url(../images/ggaobg.jpg) #69aed2 repeat-x left bottom; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 8px
+}
+.ggal {
+	PADDING-LEFT: 26px; FONT-WEIGHT: bold; BACKGROUND: url(../images/ggal.gif); COLOR: #ffffff
+}
+.lambg {
+	PADDING-LEFT: 28px; FONT-WEIGHT: bold; BACKGROUND: url(../images/lanbg.gif); COLOR: #ffffff; HEIGHT: 24px
+}
+.ltxtbg {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; BACKGROUND: url(../images/ltxtbh.jpg) no-repeat left top; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; HEIGHT: 24px
+}
+.ltxtbg1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: #ffffff no-repeat left top; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; HEIGHT: 24px
+}
+.ltxt2bg {
+	BORDER-RIGHT: #a3e8f6 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 12px; BACKGROUND: url(../images/ltxt2bg.jpg) #e5f4fa repeat-x left bottom; PADDING-BOTTOM: 2px; MARGIN-LEFT: 3px; BORDER-LEFT: #a3e8f6 1px solid; WIDTH: 187px; LINE-HEIGHT: 22px; PADDING-TOP: 10px
+}
+.li A {
+	PADDING-LEFT: 11px; BACKGROUND: url(../images/li.gif) no-repeat left 3px; LINE-HEIGHT: 22px
+}
+.li A:hover {
+	PADDING-LEFT: 11px; BACKGROUND: url(../images/li2.gif) no-repeat left 3px; LINE-HEIGHT: 22px
+}
+.foot_left {
+	BACKGROUND: url(../images/foot_left.jpg); WIDTH: 235px; HEIGHT: 48px
+}
+.foot_rigth {
+	BACKGROUND: url(../images/foot_bg.jpg) #ecf4f8 repeat-x left bottom
+}
+.foot_d {
+	BACKGROUND: url(../images/foot_d.jpg) no-repeat center top; HEIGHT: 45px
+}
+.m_dz {
+	PADDING-LEFT: 25px; BACKGROUND: url(../images/homez.jpg) no-repeat 5px center; FONT-FAMILY: "宋体"
+}
+.m_dz A {
+	FONT-FAMILY: "宋体"
+}
+.m_dz A:hover {
+	FONT-FAMILY: "宋体"
+}
+.zzbg {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/zzbg.jpg) repeat-x left bottom; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.zzbg2 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/zzbg2.jpg) repeat-x left bottom; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.zzsbg {
+	BACKGROUND: url(../images/zzsbg.jpg)
+}
+.fent_j {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; COLOR: #ff6600; PADDING-TOP: 0px
+}
+.fent_ls {
+	COLOR: #55a400
+}

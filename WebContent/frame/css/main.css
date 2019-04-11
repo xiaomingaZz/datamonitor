@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+}
+
+a img{
+	outline:none;
+	border:none;
+}
+a:link    {COLOR: #000000;text-decoration: none;}
+a:visited {COLOR: #000000;text-decoration: none;}
+a:hover   {COLOR: #0000ff;text-decoration: none;}
+table .main{
+  	background-image:url(../images/main/back.gif);
+}
+.main .headClass{
+	background-image:url(../images/main/logo3.gif);
+	background-repeat:no-repeat;
+}
+.main .headBgClass{
+	background-image:url(../images/main/logo3_left.gif);	
+	background-repeat:repeat-x;
+}
+.main .headBgClass table{
+		font-size:12px;
+}
+.splitBG{
+	background-image:url(../images/main/sp_bg.gif);	
+	background-repeat:repeat-y;	
+}
+.userInfo{
+	font-size:13px;
+}

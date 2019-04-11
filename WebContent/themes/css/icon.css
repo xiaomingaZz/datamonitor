@@ -1,0 +1,216 @@
+@CHARSET "UTF-8";
+
+.body-wrap a {
+	color: #083772;
+}
+
+.body-wrap a:link {
+	color: #083772;
+	text-decoration: none;
+}
+
+.body-wrap a:visited {
+	color: #1e4e8f;
+	text-decoration: none;
+}
+
+.body-wrap a:hover {
+	text-decoration: underline;
+	color: #0000CC;
+}
+
+.body-wrap a:active {
+	text-decoration: none;
+	color: #1e4e8f;
+}
+
+.btn_add {
+	background: url(../icons/add.gif) no-repeat;
+}
+
+.btn_view {
+	background: url(../icons/view.gif) no-repeat;
+}
+
+.btn_copy {
+	background: url(../icons/copy.png) no-repeat;
+}
+
+.btn_up {
+	background: url(../icons/up.gif) no-repeat;
+}
+
+.btn_down {
+	background: url(../icons/down.gif) no-repeat;
+}
+
+.btn_save {
+	background: url(../icons/save.gif) no-repeat;
+}
+
+.btn_delete {
+	background: url(../icons/delete.gif) no-repeat;
+}
+
+.icon_loading {
+	background: url(../icons/blue-loading.gif) no-repeat;
+}
+.btn_inuser {
+	background: url(../icons/user_in.gif) no-repeat;
+}
+
+.btn_edit {
+	background: url(../icons/edit.gif) no-repeat;
+}
+.btn_print {
+	background: url(../icons/printer.png) no-repeat;
+}
+.btn_table_refresh {
+	background: url(../icons/table_refresh.png) no-repeat;
+}
+.icon_system {
+	background: url(../icons/cog_edit.png) no-repeat;
+}
+
+.icon_category {
+	background: url(../icons/icon-by-category.gif) no-repeat;
+}
+
+.icon_pro {
+	background: url(../icons/setprop.gif) no-repeat;
+}
+
+.icon_dx {
+	background: url(../icons/dx.gif) no-repeat;
+}
+
+.icon_org {
+	background: url(../icons/orgmgr.gif) no-repeat;
+}
+
+.icon_grp2 {
+	background: url(../icons/grp2.gif) no-repeat;
+}
+
+.icon_olap {
+	background: url(../icons/olap.gif) no-repeat;
+}
+
+.icon_leaf {
+	background: url(../icons/leaf.gif) no-repeat;
+}
+
+.icon_search {
+	background: url(../icons/search.gif) no-repeat;
+}
+
+.icon_go {
+	background: url(../icons/icon-show-complete.gif) no-repeat;
+}
+.icon_to {
+	background: url(../icons/application_go.png) no-repeat;
+}
+.icon_capture {
+	background: url(../icons/edit.gif) no-repeat;
+}
+.icon_user {
+	background: url(../icons/user.png) no-repeat;
+}
+.icon_user_group {
+	background: url(../icons/group.png) no-repeat;
+}
+.icon_view_list {
+	background: url(../icons/app_view_list.png) no-repeat;
+}
+.icon_table {
+	background: url(../icons/table.png) no-repeat;
+}
+.icon_app {
+	background: url(../icons/app.png) no-repeat;
+}
+.icon_edit {
+	background: url(../icons/edit.gif) no-repeat;
+}
+.icon_flag_red {
+	background: url(../icons/flag_red.png) no-repeat;
+}
+.icon_flag_blue {
+	background: url(../icons/flag_blue.png) no-repeat;
+}
+.icon_flag_green {
+	background: url(../icons/flag_green.png) no-repeat;
+}
+.icon_app_home {
+	background: url(../icons/app_home.png) no-repeat;
+}
+.icon_app_cascade {
+	background: url(../icons/app_cascade.png) no-repeat;
+}
+.icon_app_form {
+	background: url(../icons/app_form.png) no-repeat;
+}
+.icon_app_go {
+	background: url(../icons/app_go.png) no-repeat;
+}
+.icon_ok {
+	background: url(../icons/ok.gif) no-repeat;
+}
+.icon_cancel {
+	background: url(../icons/close.gif) no-repeat;
+}
+.icon_collapse{
+	background: url(../icons/collapse-all.gif) no-repeat;
+}
+.icon_expand{
+	background: url(../icons/expand-all.gif) no-repeat;
+}
+.icon_clear {
+	background: url(../icons/clear.gif) no-repeat;
+}
+.icon_submit{
+	background: url(../icons/icon-show-all.gif) no-repeat;
+}
+.x_node_add {
+	width: 14px;
+	display: none;
+	background: url(../icons/node_add.gif) no-repeat;
+}
+
+.x_node_delete {
+	width: 14px;
+	display: none;
+	background: url(../icons/node_delete.gif) no-repeat;
+}
+
+.icon_folders{
+	background: url(../icons/folders_explorer.png) no-repeat;
+}
+
+.icon_folder{
+    background-image:url( ../icons/16x16folder.gif) !important;
+}
+.icon_tombs{
+    background-image:url( ../icons/tombs.gif) !important;
+}
+.icon_book{
+    background-image:url( ../icons/book.gif) !important;
+}
+.icon_book_title{
+    background-image:url( ../icons/book_titel.gif) !important;
+}
+.icon_refresh{
+    background-image:url( ../icons/refresh.gif) !important;
+}
+
+.icon_uplevel{
+    background-image:url( ../icons/transform_shear.png) !important;
+}
+.icon_toggle_minus{
+    background-image:url( ../icons/bullet_toggle_minus.png) !important;
+}
+.icon_toggle_plus{
+    background-image:url( ../icons/bullet_toggle_plus.png) !important;
+}
+.icon_export_xls{
+    background-image:url( ../icons/doc_excel_table.png) !important;
+}

@@ -1,0 +1,63 @@
+body {
+	font-size: 12px;
+}
+tr {
+	line-height: 20px;
+	bgcolor: "#FFFFFF";
+}
+
+td {
+	font-size: 12px;
+	word-break:break-all;
+}
+.kc {
+	color: #FF0000;
+}
+.input2 { 
+    border-right: medium none; 
+    border-top: medium none; 
+    font-size: 12px; 
+    border-left: medium none; 
+    color: #000000; 
+    border-bottom:medium none; 
+    font-family: "ËÎÌו"; 
+    text-decoration: none; 
+}
+input {
+    border: #CCCCCC solid 1px;
+
+}
+select { 
+    border: #CCCCCC solid 1px;
+
+}
+textarea { 
+    border: #CCCCCC solid 1px;
+
+}
+select{ 
+        border: #CCCCCC solid 1px;
+	margin:-2px;
+	background-color:#FFFFFF;
+}
+.select1{ 
+	border:#CCCCCC solid 1px;
+	width:0;
+	height:18px;
+}
+.tablecss2{
+    border:#CCCCCC 1px solid; 
+    border-collapse:collapse;
+    margin:0px; 
+}
+.tablecss2 td{ 
+	BORDER-BOTTOM: #CCCCCC 1px solid;
+	BORDER-right: #CCCCCC 1px solid; 
+    padding:2px; 
+} 
+.tablecss2 tr.title{
+	BORDER-BOTTOM: #CCCCCC 1px solid;
+    BORDER-right: #CCCCCC 1px solid;
+    padding:2px;
+    background-color:#E8E8E8
+} 

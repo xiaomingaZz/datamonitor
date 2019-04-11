@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+/**
+ * Things from Internet
+ */
+/**
+ *plugin First 2011-1-13 9:15:54
+ */
+.x-form-unit {
+	color: pink;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 2px;
+	display: inline-block;
+	display: inline;
+	height: 22px;
+	float:left;
+}

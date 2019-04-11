@@ -1,0 +1,61 @@
+.bartable{
+	border:0px;
+	height:100%;
+	width:100%;
+	border-collapse:collapse;
+	padding:0px;
+	border-spacing:0px;
+	background-image:url(images/bar_bj.gif);
+	font-size: 14px; 
+	font-weight: bold; 
+	color: #15428B; 
+}
+.bartable td{
+	padding-left:5px;
+}
+td {
+	font-size: 12px;
+}
+hr {
+	border: thin dotted #999999;
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #EE7511; TEXT-DECORATION: none
+}
+.input_line{
+background-color:transparent ;
+border-color: #3333FF #FF3333 #000000 #FF33FF;
+border-width: 0pt; border-right-width: 0pt; border-bottom-width: 1pt; border-left-width: 0pt;
+text-align:left
+}
+.font_c {
+	font-size: 12px;
+	font-weight: bold;
+}
+.font_c td{
+  
+}
+.font13 {
+	font-size: 13px;
+}
+.whitea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.hui {
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.bg_down {
+	background-image: url(image/down_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}

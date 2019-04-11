@@ -1,0 +1,728 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0px;
+	overflow-y: auto;
+	background-image: url(../images/back12.gif);
+}
+
+/*style of common body*/
+.commbody {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.commbody table {
+	font-size: 12px;
+}
+
+/*required some words*/
+.required {
+	font-weight: bold;
+	color: red;
+}
+
+/*report table style*/
+.reporttable {
+	empty-cells: show;
+	font-size: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: middle;
+	table-layout: fixed;
+	border: 0px;
+	border-top: 1px solid #919191;
+	border-left: 1px solid #919191;
+	background-color: #919191;
+}
+
+/*report table row style*/
+.row1 {
+	height: 23px;
+	background-color: #FFFFFF;
+}
+
+/*report table row style*/
+.row2 {
+	height: 23px;
+	background-color: #FAFAFA;
+}
+
+/*report table title style*/
+.tabletitle {
+	height: 23px;
+	background-color: #F0F0F0;
+}
+
+.row1 td,.row2 td,.tabletitle td {
+	border-bottom: 1px #919191 solid;
+	border-right: 1px #919191 solid;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px 2px 2px 2px;
+}
+
+.bt {
+	text-decoration: none;
+	background-image: url(../images/bt_bj.gif);
+	background-repeat: repeat-x;
+	line-height: 26px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	color: #FFFFFF;
+}
+
+.bttitle {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	color: #FFFFFF;
+}
+
+table.defTable {
+	empty-cells: show;
+}
+
+table.defTable input {
+	background: transparent;
+	background-color: transparent;
+	border-color: #8899AB;
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+}
+
+.definput {
+	background: transparent;
+	background-color: transparent;
+	border-color: #8899AB;
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+}
+
+table.defTable textarea {
+	background: transparent;
+	background-color: transparent;
+	border-color: #8899AB;
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	overflow: auto;
+}
+
+table.defTable select {
+	background: transparent;
+	background-color: #EDF3FE;
+	border-color: #8899AB;
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+}
+
+.defInput2 {
+	background: transparent;
+	background-color: transparent;
+	border-right: medium none;
+	border-top: medium none;
+	font-size: 12px;
+	border-left: medium none;
+	color: #000000;
+	border-bottom: medium none;
+	text-decoration: none;
+}
+
+table.defTable td {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #000000;
+	background-color: #EDF3FE
+}
+
+.deftd {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #000000;
+	background-color: #EDF3FE
+}
+
+table.mainTStyle {
+	border-collapse: collapse;
+	border: 1px solid #cad9ea;
+	padding-right: 4px;
+	color: #666;
+	table-layout: fixed;
+	empty-cells: show;
+	font-size: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: bottom;
+	width: 100%;
+}
+
+table.mainTStyle td {
+	height: 25px;
+	line-height: 25px;
+	vertical-align: bottom;
+	overflow: hidden;
+}
+
+.defButton {
+	cursor: hand;
+	font-family: Verdana;
+	font-size: 9pt;
+	height: 23;
+	border-width: 0;
+	background-image: url(../images/defaultButton60.gif);
+	width: 60px;
+	margin-left: 3px;
+	padding-top: 3px;
+	background-color: transparent;
+}
+
+.defButtonLong {
+	cursor: hand;
+	font-family: Verdana;
+	font-size: 9pt;
+	height: 23;
+	border-width: 0;
+	background-image: url(../images/defaultButton80.gif);
+	width: 80px;
+	margin-left: 10px;
+	padding-top: 3px;
+	background-color: transparent;
+}
+
+.defButtonLong120 {
+	cursor: hand;
+	font-family: Verdana;
+	font-size: 9pt;
+	height: 23;
+	border-width: 0;
+	background-image: url(../images/defaultButton120.gif);
+	width: 120px;
+	margin-left: 10px;
+	padding-top: 3px;
+	background-color: transparent;
+}
+
+.defButtonSelect {
+	cursor: hand;
+	font-family: Verdana;
+	font-size: 9pt;
+	height: 23;
+	border-width: 0;
+	background-image: url(../images/defaultButton25.gif);
+	width: 25px;
+	margin-left: 10px;
+	padding-top: 3px;
+	background-color: transparent;
+}
+
+.style_12 {
+	font-size: 12px;
+}
+
+.style_14 {
+	font-size: 14px;
+}
+
+.showall {
+	font-size: 12px;
+	cursor: hand;
+	color: gray;
+}
+
+.style_12_input {
+	background: background-image =../ images/ bg_fy . gif;
+	font-size: 12px;
+	text-align: center;
+	vetical-align: middle;
+	border: 0;
+	height: 16px;
+}
+
+a.buttona:link {
+	color: blue;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.buttona:visited {
+	color: blue;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.buttona:hover {
+	color: blue;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.buttona:active {
+	color: blue;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.cxtjbody {
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	margin: 2px;
+	overflow: auto;
+}
+
+.cxtjinput {
+	border: 1px solid black; /*#CCCCCC*/
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	height: 20px;
+	width: 100%;
+	background: transparent;
+	background-color: transparent;
+	vertical-align: middle;
+	padding-top: 3px;
+	font-size: 12px;
+}
+
+.cxtjarea {
+	border: 1px solid black; /*#CCCCCC*/
+	height: 100%;
+	width: 100%;
+	background: transparent;
+	background-color: transparent;
+	vertical-align: middle;
+	padding-top: 3px;
+	font-size: 12px;
+}
+
+.cxtjselect {
+	height: 20px;
+	width: 100%;
+	background: transparent;
+	background-color: transparent;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	vertical-align: bottom;
+	padding-bottom: 0px;
+	border-color: black; /*#CCCCCC*/
+	font-size: 12px;
+}
+
+.cxtjtitle {
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.cxtjdiv {
+	padding-top: 10px;
+	margin-top: 15px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+
+.cxtjinnerdiv {
+	vertical-align: bottom;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.cxtjfunc {
+	height: 20px;
+	vertical-align: bottom;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.cxtjmore {
+	position: absolute;
+	top: 2px;
+	left: 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: none;
+	overflow: hidden;
+	border: 2px;
+	border-color: #5B94DF;
+	border-style: solid;
+	background-color: white;
+	height: 28px;
+	z-index: 1110;
+}
+
+.cxtjtop {
+	background-image: url(../images/moretopbg.gif);
+	padding: 0px;
+	color: white;
+	font-size: 12px;
+	padding-top: 3px;
+	padding-right: 10px;
+	height: 18px;
+	cursor: move;
+}
+
+.cxtjtop table {
+	color: white;
+	font-size: 12px;
+}
+
+.cxtjmorecenter {
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+.cxtjspan {
+	font-size: 12px;
+	color: blue;
+	margin-top: 5px;
+	vertical-align: middle;
+	cursor: hand;
+	background: transparent;
+	background-color: transparent;
+}
+
+.cxtjmain {
+	padding: 0;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+.cxtjmain td {
+	padding: 2;
+	margin: 0;
+	border: 0px;
+}
+
+.cxtjtable {
+	border-collapse: collapse;
+	border: 0px;
+	padding: 0px;
+	padding-right: 4px;
+	table-layout: fixed;
+	empty-cells: show;
+	font-size: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+
+.cxtjtable img {
+	cursor: hand;
+}
+
+.cxtjtable td {
+	padding: 0px;
+	height: 25px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.cxtjbody fieldset {
+	padding: 2px;
+	margin: 0px;
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	text-align: center;
+}
+
+.cxtjbody fieldset legend {
+	color: #1E7ACE;
+	font-size: 12px;
+	padding: 2px 2px 2px 2px;
+}
+
+.cxtjhr {
+	background: transparent;
+	background-color: transparent;
+	border: 1px;
+	border-color: #A4BED4;
+	border-style: solid;
+	height: 25px;
+	padding: 0px;
+	padding-top: 5px;
+	margin: 0px;
+	vertical-align: bottom;
+	text-align: right;
+	padding-right: 20px;
+	background-image: url(../images/cxxttop.gif);
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.cxtjhrbottom {
+	background: transparent;
+	background-color: transparent;
+	height: 25px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: bottom;
+	text-align: right;
+	padding-right: 20px;
+}
+
+/*default prompting message font*/
+.tsdefault {
+	color: black;
+	font-size: 12px;
+}
+
+/*inform that the column is editable*/
+.gridheaderedit {
+	color: red;
+}
+
+table.cxtable {
+	empty-cells: show;
+}
+
+table.cxtable td {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF
+}
+
+table.cxtable select {
+	background: transparent;
+	background-color: #FFFFFF;
+	border-color: black; /*#CCCCCC*/
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	width: 100%;
+}
+
+table.cxtable input {
+	background: transparent;
+	background-color: transparent;
+	border-color: black; /*#CCCCCC*/
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	width: 100%;
+}
+
+.nbinput {
+	border: black solid 1px; /*#CCCCCC*/
+	border: 0px;
+	height: 20px;
+	d width: 100%;
+	background: transparent;
+	background-color: transparent;
+	vertical-align: middle;
+	padding-top: 3px;
+	font-size: 12px;
+}
+
+.nbtextarea {
+	border: black solid 1px; /*#CCCCCC*/
+	overflow-x: auto;
+	overflow-y: auto;
+	border: 0px;
+}
+
+.nbselect1 {
+	display: block;
+	height: 18px;
+	margin: 1px 0 0 0 #ffffff;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.nbselect1 select {
+	margin: -1px 0 0 -1px;
+	color: #3A3A3A;
+	SCROLLBAR-FACE-COLOR: #ffffff;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #ffffff;
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	SCROLLBAR-ARROW-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+}
+
+textArea {
+	Word-break: break-all;
+	word-wrap: break-word;
+	background: transparent;
+}
+
+/* set span width out of button */
+.defbtnOutWid {
+	display: inline-block; /*ie*/
+	width: 70px;
+	text-align: center;
+}
+
+<!--
+05
+dagl版添加的-->table.cxtable1 {
+	empty-cells: show;
+}
+
+table.cxtable1 td {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF
+}
+
+table.cxtable1 select {
+	background: transparent;
+	background-color: #FFFFFF;
+	border-color: black; /*#CCCCCC*/
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	width: 100%;
+}
+
+table.cxtable1 input {
+	background: transparent;
+	background-color: transparent;
+	border-color: black; /*#CCCCCC*/
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	width: 100%;
+}
+
+.cxtjmain {
+	padding: 0;
+	margin: 0;
+	border: 1px solid #A4BED4;
+	border-collapse: collapse;
+}
+
+.cxtjmain td {
+	padding: 2;
+	margin: 0;
+	border: 0px;
+}
+
+.selImg {
+	vertical-align: middle;
+}
+
+.selDate {
+	background: transparent url(../images/datePicker.gif) no-repeat right;
+	vertical-align: middle;
+	width: 100%;
+	border: 0px;
+	font-size: 12px;
+	readonly: expression(this . readOnly = true);
+}
+
+/* control td-->start  */
+TR {
+	word-break: break-all
+}
+
+TD {
+	white-space: nowrap
+}
+
+/* control td-->end */ /* default table and input-->start  */
+.tdShow {
+	background-color: #E8F7FF;
+	border: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+	text-align: right;
+	font-size: 12px;
+}
+
+.definput0 {
+	background: transparent;
+	width: 100%;
+	border: 0px;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.tdInput {
+	background-color: #FFFFFF;
+	border: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+	font-size: 12px;
+}
+/* default table and input-->end */
+
+.splitBG{
+  background-image:url(../images/main/sp_bg.gif); 
+  background-repeat:repeat-y; 
+}
+
+.cxtjinput2 {
+  border: 1px solid #7F9DB9; /*#CCCCCC*/
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 20px;
+  width: 100%;
+  background: transparent;
+  background-color: transparent;
+  vertical-align: middle;
+  text-align: center;
+  align: center;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  font-size: 15px;
+  color: red;
+}
+
+.hide {
+  display : none;
+}
